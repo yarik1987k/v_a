@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Assistant:200,300,400,600,700,800&amp;subset=hebrew" rel="stylesheet">
+  </head>
+  <body>
+    <section class="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+					<div class="logo">
+						<a href="#">
+							<img class="img-fluid" src="http://via.placeholder.com/255x50">
+						</a>
+					</div>				
+				</div>
+				<div class="col-md-7">
+					<div class="head_search">
+						<form class="form_costume"> 
+							<div class="form-group flex_group"> 
+								<input type="input" class="form-control input_text_costum" placeholder="אני מחפש...">
+								<select class="sgb"> 
+									<option value="resume">עבודה</option>
+									<option value="jobs">משרות</option>
+									<option value="companies">חברות</option>
+								</select>
+								<button type="submit" class="btn btn-primary">חפש</button>
+							</div> 							
+							
+						</form>
+						<a href="#" class="gl_url advenced_search_header">חיפוש מתקדם</a>
+					</div>
+				</div>
+				<div class="col-md-2">
+					<div class="phone_header">
+						<a href="#">1800-800-80-80</a>
+						<span>שיחת חינם</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="navigation"> 
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<nav class="navbar navbar-expand-lg nav_holder">
+					  <div class="collapse navbar-collapse">
+						<ul class="navbar-nav main_navigation">
+						<li class="nav-item"><a class="nav-link" href="job_listing.html">חיפוש עבודה</a></li>
+						<li class="nav-item"><a class="nav-link" href="resume_listing.html">חיפוש עובדים</a></li>
+						<li class="nav-item"><a class="nav-link" href="#">מידע לחברות</a></li>
+						<li class="nav-item"><a class="nav-link" href="#">מידע למועמד</a></li>
+						<li class="nav-item"><a class="nav-link " href="#">כתבות</a></li>
+						<li class="nav-item"><a class="nav-link" href="#">אודותינו</a></li>
+						<li class="nav-item"><a class="nav-link" href="#">צור קשר</a></li>
+						</ul>
+						</div>
+						<div class="log">
+							<ul class="navbar-nav main_navigation">
+								<li class="nav-item "><a href="#" class="login_url nav-link">התחבר</a> </li>
+							</ul>
+						</div>
+					</nav>				
+				</div>
+			</div>
+		</div>
+	</section>
+ 
+
+
+	<section class="bread_crumbs">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">	
+					<ol class="breadcrumb">
+						<li class="breadcrumb-item "><a href="#">עמוד ראשי</a></li>  
+						<li class="breadcrumb-item active"><a href="#">חשבון אישי קורות חיים - עמוד ראשי</a></li> 
+					</ol>
+				</div>			
+			</div>
+		</div>			
+	</section>
+	<section class="personal_account_resume">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+					<div class="inner_navigation">
+						<ul>
+							<li><a href="#">קורות החיים שלי</a></li>
+							<li><a href="#">רשימת משרות מועדפות</a></li>
+							<li><a href="#">ההגשות שלי</a></li>
+							<li><a href="#">חברות שאני עוקב אחריהם</a></li>
+							<li><a href="#">סטטיסטיקה</a></li>
+							<li><a href="#">התראות</a></li>
+							<li class="active-item"><a href="#">הגדרות אישיות</a></li>
+						</ul>
+					</div>
+					
+					<div class="banners_listing">
+					
+						<a href="#"><img class="img-fluid" src="http://via.placeholder.com/285x300"></a>
+						<a href="#"><img class="img-fluid" src="http://via.placeholder.com/285x300"></a> 
+					</div>					
+				</div>
+				<div class="col-md-9">
+ 			
+				
+				
+					<div class="personal_area">
+					<div class="row">
+							<div class="col-md-12">
+								<div class="b_b_title">הגדרות אישיות</div>
+							</div> 	 							
+						</div>
+					<div class="row">
+							<div class="col-md-12">
+								<div class="setting_nav">
+ 								
+									<ul class="inline_nav_tab nav nav-tabs" id="myTab" role="tablist">
+										<li class="single_item"><a  class="active" data-toggle="tab" href="#block_info_1" role="tab" >מידע אישי</a></li>
+										<li class="single_item"><a  data-toggle="tab" href="#block_info_2" role="tab" >חברות לא רצויות</a></li>
+										<li class="single_item"><a  data-toggle="tab" href="#block_info_3" role="tab" >תמונות</a></li>
+										<li class="single_item"><a  data-toggle="tab" href="#block_info_4" role="tab" >הגדרת התראות</a></li>
+										<li class="single_item"><a   data-toggle="tab" href="#block_info_5" role="tab" >הגדרות דיוור</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					<div class="sep_line"></div> 
+					<div class="tab_holder_settings tab-content" id="myTabContent">
+					<div class="personal_info_settings tab-pane fade show active" id="block_info_1" role="tabpanel">
+						
+						<div class="row">
+							<div class="col-md-12">
+								<div class="s_b_title">מידע אישי</div>
+							</div>
+							<div class="col-md-8">
+								
+									<div class="personal_info_single_setting">
+										<div class="row">
+											<div class="col-md-4">
+												<div class="item_block text-right"> שם פרטי</div>
+											</div>
+											<div class="col-md-4">
+												<div class="item_block text-right">ישראל ישראלי</div>
+											</div>						
+											<div class="col-md-4">
+												<div class="item_block text-left"><a href="#">ערוך</a></div>
+											</div>												
+										</div>
+									</div>
+									<div class="personal_info_single_setting">
+										<div class="row">
+											<div class="col-md-4">
+												<div class="item_block text-right">סיסמה</div>
+											</div>
+											<div class="col-md-4">
+												<div class="item_block text-right">XXXXXXX</div>
+											</div>						
+											<div class="col-md-4">
+												<div class="item_block text-left"><a href="#">ערוך</a></div>
+											</div>												
+										</div>
+									</div>	
+									<div class="personal_info_single_setting">
+										<div class="row">
+											<div class="col-md-4">
+												<div class="item_block text-right">אימייל</div>
+											</div>
+											<div class="col-md-4">
+												<div class="item_block text-right">MYEMAIL@GMAIL.COM</div>
+											</div>						
+											<div class="col-md-4">
+												<div class="item_block text-left"><a href="#">ערוך</a></div>
+											</div>												
+										</div>
+									</div>
+									<div class="personal_info_single_setting">
+										<div class="row">
+											<div class="col-md-4">
+												<div class="item_block text-right">טלפון אישי</div>
+											</div>
+											<div class="col-md-4">
+												<div class="item_block text-right">050-555-55-55</div>
+											</div>						
+											<div class="col-md-4">
+												<div class="item_block text-left"><a href="#">ערוך</a></div>
+											</div>												
+										</div>
+									</div>
+									<div class="personal_info_single_setting">
+										<div class="row">
+											<div class="col-md-4">
+												<div class="item_block text-right">רשת חברתית</div>
+											</div>
+											<div class="col-md-4">
+												<div class="item_block text-right">פייסבוק</div>
+											</div>						
+											<div class="col-md-4">
+												<div class="item_block text-left"><a href="#">ערוך</a></div>
+											</div>												
+										</div>
+									</div>									
+									<div class="personal_info_single_setting">
+										<div class="row">
+											<div class="col-md-12">
+												<div class="item_block text-right"><a href="#">מחק חשבון</a></div>
+											</div>
+											 												
+										</div>
+									</div>									
+									
+								 
+							</div>
+							<div class="col-md-4">
+								<div class="my_status_on_the_site">
+									<div class="s_b_title">הסטטוס שלי באתר</div>
+									<div class="single_status">
+									<div class="input_group_holder">
+										<label class="custom-control custom-radio">
+										  <input id="radio1" name="radio" type="radio" class="custom-control-input">
+										  <span class="custom-control-indicator"></span>
+										  <span class="custom-control-description">אני לא מחפש עבודה כרגע</span>
+										</label>				
+										<span>
+										אף אחד לא יוכל לצפות בקורות חיים שלי, הן לא יופיעו בחיפוש, או במקום אחר באינטרנט, כולל חיפוש בגוגל
+										</span>
+									</div>
+									<div class="input_group_holder">
+										<label class="custom-control custom-radio">
+										  <input id="radio1" name="radio" type="radio" class="custom-control-input">
+										  <span class="custom-control-indicator"></span>
+										  <span class="custom-control-description">אני מחפש עבודה</span>
+										</label>
+										<span>
+										כרגע מפורסם <a href="#">3 קורות חיים</a> תבצע חיפוש מורחב יותר לקבלת משרות חדשות <a href="#">חיפוש מורחב</a>
+										
+										</span>
+									</div>	
+									<div class="input_group_holder">
+										<button class="btn btn-primary btn-block">שמור את ההגדרות שלי</button>
+									</div>									
+									</div>
+								</div>
+							</div>
+						</div>
+						</div>
+					
+<div class="unwanted_company tab-pane fade active show" id="block_info_2" role="tabpanel" aria-expanded="true">
+						<div class="row">
+							  
+							<div class="col-md-12">
+							 
+							<div class="tab-content" id="myTabContent1">
+								<div class="hide_company">
+									<div class="single_input_field">
+										<div class="row">
+											<div class="col-md-6">
+											<div class="s_b_title">חברות לא רצויות</div>
+											</div>
+											<div class="col-md-6 text-left">
+											 <button class="btn btn-gray">שחזר גישה לכולם</button>
+											</div> 
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-md-12">
+											<div class="sep_line"></div>
+										</div>
+									</div>
+									<div class="single_hide_company">
+										<div class="row">
+											<div class="col-md-5">
+												<a href="#">סונול</a>
+											</div>
+											<div class="col-md-3">
+											משרות החברה: 100 משרות
+											</div>
+											<div class="col-md-4">
+												<button class="btn btn-gray btn-block">שחזר גישה</button>
+											</div>
+										</div> 
+									</div>
+									<div class="single_hide_company">
+										<div class="row">
+											<div class="col-md-5">
+												<a href="#">סונול</a>
+											</div>
+											<div class="col-md-3">
+											משרות החברה: 100 משרות
+											</div>
+											<div class="col-md-4">
+												<button class="btn btn-gray btn-block">שחזר גישה</button>
+											</div>
+										</div> 
+									</div>
+									<div class="single_hide_company">
+										<div class="row">
+											<div class="col-md-5">
+												<a href="#">סונול</a>
+											</div>
+											<div class="col-md-3">
+											משרות החברה: 100 משרות
+											</div>
+											<div class="col-md-4">
+												<button class="btn btn-gray btn-block">שחזר גישה</button>
+											</div>
+										</div> 
+									</div>
+									<div class="single_hide_company">
+										<div class="row">
+											<div class="col-md-5">
+												<a href="#">סונול</a>
+											</div>
+											<div class="col-md-3">
+											משרות החברה: 100 משרות
+											</div>
+											<div class="col-md-4">
+												<button class="btn btn-gray btn-block">שחזר גישה</button>
+											</div>
+										</div> 
+									</div>									
+								</div> 
+							 
+								<div class="hide_jobs"> 
+									<div class="single_input_field">
+										<div class="row">
+											<div class="col-md-6">
+											 <div class="s_b_title">משרות לא רצויות</div>
+											</div>
+											<div class="col-md-6 text-left">
+											 <button class="btn btn-gray">שחזר גישה לכולם</button>
+											</div>
+										</div>
+									</div>
+									<div class="sep_line"></div>
+									<div class="single_favorite">
+										<div class="row"> 
+											<div class="col-md-8">
+												<div class="single_favorite_job">
+													<div class="job_name">מנהל /ת מחלקת גביה אלמנטר</div>
+													<div class="company_info">
+														
+														<a href="#">סונול</a>
+														<span class="public_date">18.10.2017</span>
+														<div class="sallary">משכורת 8000-12000</div>
+														<div class="place">מיקום: תל-אביב הירקון 5</div>
+													</div>
+												</div>
+											</div>
+											<div class="col-md-4">
+												<button class="btn btn-gray btn-block">שחזר גישה</button>
+											</div>
+										</div>
+									</div>									
+									<div class="single_favorite">
+										<div class="row"> 
+											<div class="col-md-8">
+												<div class="single_favorite_job">
+													<div class="job_name">מנהל /ת מחלקת גביה אלמנטר</div>
+													<div class="company_info">
+														
+														<a href="#">סונול</a>
+														<span class="public_date">18.10.2017</span>
+														<div class="sallary">משכורת 8000-12000</div>
+														<div class="place">מיקום: תל-אביב הירקון 5</div>
+													</div>
+												</div>
+											</div>
+											<div class="col-md-4">
+												<button class="btn btn-gray btn-block">שחזר גישה</button>
+											</div>
+										</div>
+									</div>									
+									<div class="single_favorite">
+										<div class="row"> 
+											<div class="col-md-8">
+												<div class="single_favorite_job">
+													<div class="job_name">מנהל /ת מחלקת גביה אלמנטר</div>
+													<div class="company_info">
+														
+														<a href="#">סונול</a>
+														<span class="public_date">18.10.2017</span>
+														<div class="sallary">משכורת 8000-12000</div>
+														<div class="place">מיקום: תל-אביב הירקון 5</div>
+													</div>
+												</div>
+											</div>
+											<div class="col-md-4">
+												<button class="btn btn-gray btn-block">שחזר גישה</button>
+											</div>
+										</div>
+									</div>									
+									
+									
+									
+								</div>
+							</div>
+							</div>
+						</div> 
+					</div>
+					<div class="images_settings tab-pane fade" id="block_info_3" role="tabpanel" >
+						<div class="row">
+							<div class="col-md-12">
+								<div class="s_b_title">הגדרות תמונות</div>
+							</div>
+							<div class="col-md-12">
+								<div class="single_img_upload_block">
+									<div class="s_b_title">העלאה תמונות אישיות</div>
+									<div class="info_text">מותר להעלאות עד 8 תמונות</div>
+									<div class="photo_upload">
+										<button class="btn btn-primary"> העלאה תמונות</button>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-12">
+								<div class="single_img_upload_block">
+									<div class="s_b_title">העלאה תמונות לפורטפוליו</div>
+									<div class="info_text">מותר להעלאות עד 20 תמונות</div>
+									<div class="photo_upload">
+										<button class="btn btn-primary"> העלאה תמונות</button>
+									</div>
+								</div>
+							</div>						
+						
+						</div> 
+					</div>
+					
+					<div class="allert_settings tab-pane fade" id="block_info_4" role="tabpanel">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="s_b_title">הגדרת התראות</div>
+							</div>
+							
+							<div class="col-md-12">
+								<div class="allert_single_set">
+									<div class="row">
+										<div class="col-md-6">
+										<div class="input_group_holder">
+										<label class="custom-control custom-checkbox">
+											<input type="checkbox" class="custom-control-input">
+											<span class="custom-control-indicator"></span>
+											<span class="custom-control-description">אל תציג לי התרעות של חברות חדשות</span>
+										</label>
+										</div>
+										</div>
+										<div class="col-md-6">
+										<div class="input_group_holder">
+										<label class="custom-control custom-checkbox">
+											<input type="checkbox" class="custom-control-input">
+											<span class="custom-control-indicator"></span>
+											<span class="custom-control-description">אל תציג לי התראות אזהרה</span>
+										</label>
+										</div>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-md-6">
+										<div class="input_group_holder">
+										<label class="custom-control custom-checkbox">
+											<input type="checkbox" class="custom-control-input">
+											<span class="custom-control-indicator"></span>
+											<span class="custom-control-description">אל תציג לי התראות של משרות חדשות</span>
+										</label>
+										</div>
+										</div>
+										<div class="col-md-6">
+										<div class="input_group_holder">
+										<label class="custom-control custom-checkbox">
+											<input type="checkbox" class="custom-control-input">
+											<span class="custom-control-indicator"></span>
+											<span class="custom-control-description">אל תציג התראות של מידע נוסף</span>
+										</label>
+										</div>
+										</div>
+									</div>	
+									<div class="row">
+										<div class="col-md-12">
+										<div class="input_group_holder">
+										<button class="btn btn-primary">עדכן הגדרות התראות</button>
+										</div>
+										</div> 
+									</div>
+
+									
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="newsletter_settings tab-pane fade" id="block_info_5" role="tabpanel">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="s_b_title">הגדרות דיוור</div>
+							</div>
+							<div class="col-md-12">
+								<div class="single_input_field">
+								<div class="row">
+									<div class="col-md-3">
+										<div class="s_r_title">דיוור סמס</div>
+									</div>
+									<div class="col-md-9">
+										<div class="input_group_holder">
+											<label class="custom-control custom-checkbox">
+												<input type="checkbox" class="custom-control-input">
+												<span class="custom-control-indicator"></span>
+												<span class="custom-control-description">עדכונים והמלצות</span>
+											</label>
+										</div>
+										<div class="input_group_holder">
+											<label class="custom-control custom-checkbox">
+												<input type="checkbox" class="custom-control-input">
+												<span class="custom-control-indicator"></span>
+												<span class="custom-control-description">פרסום וחדשות האתר</span>
+											</label>
+										</div>										
+									</div>
+								</div>
+								</div>							
+							</div>
+							<div class="col-md-12">
+								<div class="single_input_field">
+								<div class="row">
+									<div class="col-md-3">
+										<div class="s_r_title">דיוור באימייל</div>
+									</div>
+									<div class="col-md-9">
+										<div class="input_group_holder">
+											<label class="custom-control custom-checkbox">
+												<input type="checkbox" class="custom-control-input">
+												<span class="custom-control-indicator"></span>
+												<span class="custom-control-description">עדכונים והמלצות</span>
+											</label>
+										</div>
+										<div class="input_group_holder">
+											<label class="custom-control custom-checkbox">
+												<input type="checkbox" class="custom-control-input">
+												<span class="custom-control-indicator"></span>
+												<span class="custom-control-description">פרסום וחדשות האתר</span>
+											</label>
+										</div>		
+										<div class="input_group_holder">
+											<label class="custom-control custom-checkbox">
+												<input type="checkbox" class="custom-control-input">
+												<span class="custom-control-indicator"></span>
+												<span class="custom-control-description">משרות חדשות מתאימות לקורות חיים שלכם</span>
+											</label>
+										</div>	
+										<div class="input_group_holder">
+											<label class="custom-control custom-checkbox">
+												<input type="checkbox" class="custom-control-input">
+												<span class="custom-control-indicator"></span>
+												<span class="custom-control-description">ברכות ימי הולדת</span>
+											</label>
+										</div>
+										<div class="input_group_holder">
+											<label class="custom-control custom-checkbox">
+												<input type="checkbox" class="custom-control-input">
+												<span class="custom-control-indicator"></span>
+												<span class="custom-control-description">התראות של צפיות בקורות חיים</span>
+											</label>
+										</div>										
+									</div>
+								</div>
+								</div>							
+							</div>							
+							<div class="col-md-12">
+								<div class="single_input_field">
+								<div class="row">
+									<div class="col-md-3">
+										<div class="s_r_title">התתראות PUSH</div>
+									</div>
+									<div class="col-md-9">
+										<div class="input_group_holder">
+											<label class="custom-control custom-checkbox">
+												<input type="checkbox" class="custom-control-input">
+												<span class="custom-control-indicator"></span>
+												<span class="custom-control-description">עדכונים והמלצות</span>
+											</label>
+										</div>
+										<div class="input_group_holder">
+											<label class="custom-control custom-checkbox">
+												<input type="checkbox" class="custom-control-input">
+												<span class="custom-control-indicator"></span>
+												<span class="custom-control-description">פרסום וחדשות האתר</span>
+											</label>
+										</div>		
+										<div class="input_group_holder">
+											<label class="custom-control custom-checkbox">
+												<input type="checkbox" class="custom-control-input">
+												<span class="custom-control-indicator"></span>
+												<span class="custom-control-description">משרות חדשות מתאימות לקורות חיים שלכם</span>
+											</label>
+										</div>	
+										<div class="input_group_holder">
+											<label class="custom-control custom-checkbox">
+												<input type="checkbox" class="custom-control-input">
+												<span class="custom-control-indicator"></span>
+												<span class="custom-control-description">ברכות ימי הולדת</span>
+											</label>
+										</div>
+										<div class="input_group_holder">
+											<label class="custom-control custom-checkbox">
+												<input type="checkbox" class="custom-control-input">
+												<span class="custom-control-indicator"></span>
+												<span class="custom-control-description">התראות של צפיות בקורות חיים</span>
+											</label>
+										</div>										
+										<div class="input_group_holder">
+											<label class="custom-control custom-checkbox">
+												<input type="checkbox" class="custom-control-input">
+												<span class="custom-control-indicator"></span>
+												<span class="custom-control-description">הצעות לראיון עבודה</span>
+											</label>
+										</div>
+										<div class="input_group_holder">
+											<label class="custom-control custom-checkbox">
+												<input type="checkbox" class="custom-control-input">
+												<span class="custom-control-indicator"></span>
+												<span class="custom-control-description">צ'אט עם החברה</span>
+											</label>
+										</div>
+										<div class="input_group_holder">
+											<label class="custom-control custom-checkbox">
+												<input type="checkbox" class="custom-control-input">
+												<span class="custom-control-indicator"></span>
+												<span class="custom-control-description">חיפוש אוטומטי של משרות	</span>
+											</label>
+										</div>										
+									</div>
+								</div>
+								</div>							
+							</div>							
+							
+						</div>
+						<div class="row">
+							<div class="col-md-12">
+								<div class="input_group_holder">
+							<button class="btn btn-primary">עדכן הגדרות התראות</button>
+							</div>
+							</div> 
+						</div>						
+					</div>
+						
+					</div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</section> 
+	
+ 	<section class="banner_width inner_page_banner">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<a href="#"><img class="img-fluid" src="http://via.placeholder.com/1110x100"></a>
+				</div>			
+			</div>
+		</div>		
+	</section>	
+	<section class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-2">
+					<div class="single_links_block">
+						<div class="title_links">חיפוש עבודה</div>
+						<ul>
+							<li><a href="#">דרושים</a></li>
+							<li><a href="#">משרות פנויות</a></li>
+							<li><a href="#">הצעות עבודה</a></li>
+							<li><a href="#">לוח דרושים</a></li>
+							<li><a href="#">לוח משרות</a></li>
+							<li><a href="#">עבודה מהבית</a></li>
+							<li><a href="#">שדרוג קורות חיים מקצועי</a></li>
+							<li><a href="#">הכנה לראיון עבודה</a></li>
+							<li><a href="#">טבלת שכר</a></li>
+							<li><a href="#">כתיבת קורות חיים חינם</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-2">
+					<div class="single_links_block">
+						<div class="title_links">עולמות דרושים</div>
+						<ul>
+							<li><a href="#">דרושים הייטק</a></li>
+							<li><a href="#">דרושים סטודנטים</a></li>
+							<li><a href="#">עבודה בחו"ל (לצעירים)</a></li>
+							<li><a href="#">דרושים בכירים</a></li>
+							<li><a href="#">עבודה לנוער</a></li>
+							<li><a href="#">עבודה גם לבני 50 פלוס</a></li>
+							<li><a href="#">כמה אתם שווים</a></li> 
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-2">
+					<div class="single_links_block">
+						<div class="title_links">כתבות ומדריכים</div>
+						<ul>
+							<li><a href="#">דרושים</a></li>
+							<li><a href="#">משרות פנויות</a></li>
+							<li><a href="#">הצעות עבודה</a></li>
+							<li><a href="#">לוח דרושים</a></li>
+							<li><a href="#">לוח משרות</a></li>
+							<li><a href="#">עבודה מהבית</a></li>
+							<li><a href="#">שדרוג קורות חיים מקצועי</a></li>
+							<li><a href="#">הכנה לראיון עבודה</a></li>
+							<li><a href="#">טבלת שכר</a></li>
+							<li><a href="#">כתיבת קורות חיים חינם</a></li>
+						</ul>
+					</div>
+				</div>	
+				<div class="col-md-2">
+					<div class="single_links_block">
+						<div class="title_links">על האתר</div>
+						<ul>
+							<li><a href="#">דרושים</a></li>
+							<li><a href="#">משרות פנויות</a></li>
+							<li><a href="#">הצעות עבודה</a></li>
+							<li><a href="#">לוח דרושים</a></li>
+							<li><a href="#">לוח משרות</a></li>
+							<li><a href="#">עבודה מהבית</a></li>
+							<li><a href="#">שדרוג קורות חיים מקצועי</a></li>
+							<li><a href="#">הכנה לראיון עבודה</a></li>
+							<li><a href="#">טבלת שכר</a></li>
+							<li><a href="#">כתיבת קורות חיים חינם</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-2">
+					<div class="single_links_block">
+						<div class="title_links">גיוס עובדים</div>
+						<ul>
+							<li><a href="#">דרושים</a></li>
+							<li><a href="#">משרות פנויות</a></li>
+							<li><a href="#">הצעות עבודה</a></li>
+							<li><a href="#">לוח דרושים</a></li>
+							<li><a href="#">לוח משרות</a></li>
+							<li><a href="#">עבודה מהבית</a></li>
+							<li><a href="#">שדרוג קורות חיים מקצועי</a></li>
+							<li><a href="#">הכנה לראיון עבודה</a></li>
+							<li><a href="#">טבלת שכר</a></li>
+							<li><a href="#">כתיבת קורות חיים חינם</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-2">
+					<div class="single_links_block">
+						<div class="title_links">משרות לפי תחומים</div>
+						<ul>
+							<li><a href="#">דרושים</a></li>
+							<li><a href="#">משרות פנויות</a></li>
+							<li><a href="#">הצעות עבודה</a></li>
+							<li><a href="#">לוח דרושים</a></li>
+							<li><a href="#">לוח משרות</a></li>
+							<li><a href="#">עבודה מהבית</a></li>
+							<li><a href="#">שדרוג קורות חיים מקצועי</a></li>
+							<li><a href="#">הכנה לראיון עבודה</a></li>
+							<li><a href="#">טבלת שכר</a></li>
+							<li><a href="#">כתיבת קורות חיים חינם</a></li>
+						</ul>
+					</div>
+				</div>				
+			</div>
+		</div>
+	</section>	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"></script>
+	 <script src="assets/js/main.js" ></script> 
+  </body>
+</html>
